@@ -219,7 +219,7 @@ int WINAPI WinMain(HINSTANCE, HINSTANCE, LPSTR, int) {
 		MatrixScreenPrintf(0, kRowHeight * 5 * 2, resultMultiply, "Multiply");
 		MatrixScreenPrintf(0, kRowHeight * 5 * 3, inverseM1, "InverseM1");
 		MatrixScreenPrintf(0, kRowHeight * 5 * 4, inverseM2, "InverseM2");
-        MatrixScreenPrintf(kColumnWidth * 5, 0, transposeM1, "TransposeM1");
+		MatrixScreenPrintf(kColumnWidth * 5, 0, transposeM1, "TransposeM1");
 		MatrixScreenPrintf(kColumnWidth * 5, kRowHeight * 5, transposeM2, "TransposeM2");
 		MatrixScreenPrintf(kColumnWidth * 5, kRowHeight * 5 * 2, identity, "Identity");
 
