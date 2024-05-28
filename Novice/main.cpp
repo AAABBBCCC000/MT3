@@ -103,13 +103,12 @@ int WINAPI WinMain(HINSTANCE, HINSTANCE, LPSTR, int) {
 		/// ↓更新処理ここから
 		///
 
-		// 拡大縮小成分ベクトル
 		Vector3 scale{1.2f, 0.79f, -2.1f};
-		// 回転成分ベクトル
+
 		Vector3 rotate{0.4f, 1.43f, -0.8f};
-		// 平行移動成分ベクトル
+
 		Vector3 translate{2.7f, -4.15f, 1.57f};
-		// ↑の3つの成分からそれぞれの行列をつくり、さらにその行列を掛け算で1つにする
+
 		Matrix4x4 worldMatrix = MakeAffineMatrix(scale, rotate, translate);
 
 		///
